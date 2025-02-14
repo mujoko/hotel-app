@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 
-var rdsUrl = 'replace with endpoint to the RDS';
-var password =  'replace with password to the RDS';
-var user = 'replace with user to the RDS';
-
+ 
+var rdsUrl = 'hotel-app-database.cjftouxk1nuo.ap-southeast-1.rds.amazonaws.com';
+var password =  'rovte5-cahmAz-ceprac';
+var user = 'admin';
 // mysql connection pool
 var rdsPool = mysql.createPool({
     connectionLimit : 12,
